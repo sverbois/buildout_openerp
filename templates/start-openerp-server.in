@@ -1,0 +1,3 @@
+#!/bin/sh
+${buildout:bin-directory}/py  ${openerp-server:location}/${openerp-server:start_script} \
+    --addons-path=${openerp-server:addons_paths} $*

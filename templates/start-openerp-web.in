@@ -1,0 +1,2 @@
+#!/bin/sh
+${buildout:bin-directory}/py  ${openerp-web:location}/${openerp-web:start_script} $*
